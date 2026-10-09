@@ -1,0 +1,99 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+
+:root {
+    font-family: "Inter", system-ui, sans-serif;
+    color: #18372a;
+    background: #f4f8f4;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    --green-900: #174d32;
+    --green-800: #21683f;
+    --green-700: #2f8050;
+    --green-600: #39945c;
+    --green-100: #e5f4e8;
+    --green-50: #f1f8f1;
+
+    --text-main: #18372a;
+    --text-muted: #718077;
+    --border: #e4ebe5;
+    --white: #ffffff;
+    --shadow: 0 14px 40px rgba(31, 73, 45, 0.08);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    min-width: 320px;
+    min-height: 100%;
+}
+
+body {
+    margin: 0;
+    min-width: 320px;
+    min-height: 100vh;
+}
+
+body,
+button,
+input {
+    font-family: "Inter", system-ui, sans-serif;
+}
+
+button,
+input {
+    font-size: inherit;
+}
+
+button,
+a {
+    -webkit-tap-highlight-color: transparent;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:disabled {
+    opacity: 0.65;
+    cursor: not-allowed;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible {
+    outline: 3px solid rgba(57, 148, 92, 0.35);
+    outline-offset: 3px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin-top: 0;
+}
+
+#root {
+    min-height: 100vh;
+}
+
+::selection {
+    color: #ffffff;
+    background: #2f8050;
+}
