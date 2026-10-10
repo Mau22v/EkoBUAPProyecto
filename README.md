@@ -236,4 +236,6 @@ Proyecto académico desarrollado para la comunidad de la Benemérita Universidad
 
 <img width="937" height="413" alt="Captura de pantalla 2026-10-08 221353" src="https://github.com/user-attachments/assets/6581c6f8-5b97-4bb9-80b7-35138da4fa36" />
 <img width="935" height="415" alt="Captura de pantalla 2026-10-08 221521" src="https://github.com/user-attachments/assets/ba500b74-e17a-45a7-8e38-84b379a172ed" />
+<img width="649" height="398" alt="Captura de pantalla 2026-10-10 124943" src="https://github.com/user-attachments/assets/8c9bf8ad-b235-427e-946e-c3c515e1446f" />
+
 
