@@ -8,6 +8,7 @@ import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import Dashboard from "./pages/Dashboard";
+import Scanner from "./pages/Scanner";
 
 import "./App.css";
 
@@ -24,6 +25,11 @@ function App() {
                         <Route
                             path="/dashboard"
                             element={<Dashboard />}
+                        />
+
+                        <Route
+                            path="/escanear"
+                            element={<Scanner />}
                         />
                     </Route>
 
